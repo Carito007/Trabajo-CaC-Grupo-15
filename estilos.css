@@ -1,5 +1,6 @@
 *{
     font-family: 'Arimo', sans-serif;
+    background-color: black;
     
 }
 
@@ -26,7 +27,7 @@ header {
 
 header img {
     width: 80%;
-    margin-left: -15%;
+    margin-left: -20%;
     height: 100%;
 }
 
@@ -37,6 +38,7 @@ header a{
     font-size: 80%;
     text-decoration: none;
     margin-left: -80%;
+    background-color: rgb(31, 30, 30);;
 }
 
 header a:hover {
@@ -48,6 +50,8 @@ header button {
     align-content: flex-start;
     justify-items: flex-start;
     margin-left: -60%;
+    background-color: rgb(31, 30, 30);
+    color: white;
 
 }
 
@@ -82,15 +86,14 @@ header button {
 }
 
 .carrousel {
-    display: flex;
+    display: flexbox;
    
-
 }
 
 .carrousel img {
     margin:auto;
     width: 33%;
-    height: 200px;
+    height: 265px;
 }
 
 .pie-pagina {
