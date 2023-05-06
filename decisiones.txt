@@ -1,8 +1,0 @@
-Qué elementos HTML vamos a poner en nuestro proyecto web?
-
-Home
-El gimnasio
-Rutinas
-Contacto (acá podemos aprovechar para poner el frame con la ubicación en MAPS)
-
-
