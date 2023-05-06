@@ -33,7 +33,7 @@ header img {
 
 header a{
     color: rgb(255, 255, 255);
-    margin-left: 0px;
+    margin-left: -20px;
     list-style: none;
     font-size: 80%;
     text-decoration: none;
@@ -52,8 +52,8 @@ header button {
     margin-left: -60%;
     background-color: rgb(31, 30, 30);
     color: white;
-
 }
+
 
 
 .slogan {
@@ -159,3 +159,54 @@ header button {
     }
     
 }
+
+
+
+
+@media screen and (max-width: 920px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        /*padding:35px 0px;*/
+        align-content: center;
+        justify-content: center;
+        
+        
+    }
+    header a, p {
+        display: block;
+        margin-top: 0px;
+        justify-content: center;
+        align-content: center;
+        margin-left: 2%;
+    }
+
+    header img {
+        margin-left: 2%;
+    }
+
+    header #vacio {
+        display: none;
+    }
+
+    header button {
+        display: flex;
+        margin-left: 55%;
+        margin-top: -6%;
+    }
+
+    .carrousel {
+        display: flex;
+        height: auto;
+    }
+    
+    .slogan {
+        justify-items: center;
+        
+    }
+
+}
+
+
+
