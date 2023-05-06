@@ -3,14 +3,14 @@
     
 }
 
-/* body {
+body {
     background-color: black;
     align-items: center;
     width: 98%;
     justify-items: center;
     justify-content: center;
     align-content: center;
-} */
+} 
 
 header {
     display: grid;
