@@ -1,6 +1,7 @@
 *{
     font-family: 'Arimo', sans-serif;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #0d2033;
     
 }
 
@@ -17,11 +18,12 @@ header {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column-gap: 0px;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 2%;
     align-items: center;
     justify-items: center;
-    background-color: rgb(31, 30, 30);
+    /* background-color: rgb(31, 30, 30); */
+    background-color: #0a141d ;
        
 }
 
@@ -38,7 +40,7 @@ header a{
     font-size: 80%;
     text-decoration: none;
     margin-left: -80%;
-    background-color: rgb(31, 30, 30);;
+    background-color: #0a141d;
 }
 
 header a:hover {
@@ -78,7 +80,7 @@ header button {
 }
 
 .cuerpo {
-    background-color: rgb(31, 30, 30);
+    background-color: #0a141d ;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -98,7 +100,7 @@ header button {
 
 .pie-pagina {
     width: 100%;
-    background-color: #0a141d ;
+    background-color:#0d2033 ;
 }
 .pie-pagina .grupo-1 {
     width: 100%;
@@ -129,7 +131,7 @@ header button {
     margin-bottom: 10px;
     
 }
-.pie-pagina  a{
+.pie-pagina  a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -150,6 +152,8 @@ header button {
     text-align: center;
     color: #ffff;
 }
+
+
 /*@media screen and (max-width: 800px) {
     .pie-pagina .grupo-1{
         width: 100%;
@@ -184,6 +188,9 @@ header button {
 
     header img {
         margin-left: 2%;
+        width: 20%;
+        background-color: #0a141d;
+    
     }
 
     header #vacio {
@@ -191,9 +198,9 @@ header button {
     }
 
     header button {
-        display: flex;
-        margin-left: 55%;
-        margin-top: -6%;
+        display: inline-block;
+        /* margin-left: 55%;
+        margin-top: -6%; */
     }
 
     .carrousel {
