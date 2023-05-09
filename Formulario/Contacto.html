@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="/estilos.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+ <!-- Iconos -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Formulario Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="img\deadpool1.png" alt="logo">
+        <a href="#" class="nav-izq">Home</a>
+        <a href="elGimnasio/elGimnasio.html" class="nav-izq">El Gimnasio</a>
+        <a href="" class="nav-izq">Rutinas</a>
+        <a href="" class="nav-izq">Contacto</a>
+        <p id="vacio"></p>
+        <p id="vacio"></p>
+        <p id="vacio"></p>
+        <input type="search" placeholder="Buscar">
+        <button>
+            <i class="fa fa-search" style="font-size: 18px;"></i>
+        </button>
+        
+
+    </header>
+    
+    <form action="XforceGym@gmail.com.ar" method="post" enctype="text/plain">
+        Datos Importantes
+        <br>  
+    <fieldset legend="Datos Importantes" name="DatosImportantes">
+            Nombre: <input type="text" name="Nombres" size="25" maxlength="28" placeholder="Ingrese el Nombre" required>
+            <br>
+            Apellido: <input type="text" name="Apellidos" id="2" size="50" maxlength="50" placeholder="Ingrese el Apellido" required>
+            <br>
+            Telefono: <input type="text" name="Telefono" id="3" size="50" maxlength="50" placeholder="Ingrese nro Telefono" required>
+            <br>
+            Comente en que podemos ayudarlo: <input type=hidden name="TextoContacto" value="10">
+            <br>
+            <textarea name="Comentario" rows="10" cols="125" > </textarea>
+        </fieldset>
+    </form>
+
+</body>
+</html>
