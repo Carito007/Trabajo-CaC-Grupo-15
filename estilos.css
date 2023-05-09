@@ -154,16 +154,18 @@ header button {
 }
 /* PROBLEMAS DE HERENCIA SIDE TO SIDE*/
 .map-grilla{
-    display: inline-block;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
     color: #ffff;
     margin-left: 0%;
     padding: 1rem 1rem;
 }
 .map-grilla img{
-
+    display: flex;
     width: 800px;
-    margin: 45%;
+    /*margin: 45%;*/
 }
 
 /*@media screen and (max-width: 800px) {
