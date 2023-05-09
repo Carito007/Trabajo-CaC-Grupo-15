@@ -142,7 +142,7 @@ header button {
     transition: all 300ms ease;
 }
 .pie-pagina a:hover{
-    color: aqua;
+    color: red;
 }
 .pie-pagina .grupo-2 {
     background-color: #0a1a2a;
@@ -150,7 +150,7 @@ header button {
     text-align: center;
     color: #ffff;
 }
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     .pie-pagina .grupo-1{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
@@ -158,7 +158,7 @@ header button {
         padding:35px 0px;
     }
     
-}
+}*/
 
 
 
@@ -168,7 +168,7 @@ header button {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0px;
-        /*padding:35px 0px;*/
+        padding:35px 0px;
         align-content: center;
         justify-content: center;
         
@@ -204,6 +204,18 @@ header button {
     .slogan {
         justify-items: center;
         
+    }
+    .pie-pagina .grupo-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        padding:35px 0px;
+        align-content: center;
+        justify-content: center
+        /*width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding:35px 0px;*/
     }
 
 }
