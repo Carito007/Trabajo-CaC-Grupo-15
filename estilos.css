@@ -275,3 +275,22 @@ header button {
     }
     
 }    
+
+
+/* estilos del formulario */
+
+#formulario button {
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    color: white;
+
+}
+
+#campos {
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+}
+
+

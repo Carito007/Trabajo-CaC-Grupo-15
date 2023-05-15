@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="/Trabajo-CaC-Grupo-15/img/deadpool-logo.png" alt="logo">
+        <img src="/img/deadpool1.png" alt="logo">
         <a href="/index.html" class="nav-izq">Home</a>
         <a href="/elGimnasio/elGimnasio.html" class="nav-izq">El Gimnasio</a>
         <a href="" class="nav-izq">Rutinas</a>
@@ -36,20 +36,24 @@
 
     </header>
     
-    <form action="XforceGym@gmail.com.ar" method="post" enctype="text/plain">
+    <form id="formulario" action="XforceGym@gmail.com.ar" method="post" enctype="text/plain">
         Datos Importantes
         <br>  
-    <fieldset legend="Datos Importantes" name="DatosImportantes">
-            Nombre: <input id="nombre" type="text" name="Nombres" size="25" maxlength="28" placeholder="Ingrese el Nombre" required>
-            <br>
-            Apellido: <input type="text" name="Apellidos" id="2" size="50" maxlength="50" placeholder="Ingrese el Apellido" required>
-            <br>
-            Telefono: <input type="text" name="Telefono" id="3" size="50" maxlength="50" placeholder="Ingrese nro Telefono" required>
-            <br>
-            Comente en que podemos ayudarlo: <input type=hidden name="TextoContacto" value="10">
-            <br>
-            <textarea name="Comentario" rows="10" cols="125" > </textarea>
-        </fieldset>
+        <fieldset id="campos" legend="Datos Importantes" name="DatosImportantes">
+                Nombre: <input id="nombre" type="text" name="Nombres" size="25" maxlength="28" placeholder="Ingrese el Nombre" required>
+                <br>
+                Apellido: <input type="text" name="Apellidos" id="2" size="50" maxlength="50" placeholder="Ingrese el Apellido" required>
+                <br>
+                Telefono: <input type="text" name="Telefono" id="3" size="50" maxlength="50" placeholder="Ingrese nro Telefono" required>
+                <br>
+                Comente en que podemos ayudarlo: <input type=hidden name="TextoContacto" value="10">
+                <br>
+                <textarea name="Comentario" rows="10" cols="125" > </textarea>
+            </fieldset>
+        <br>
+        <br>
+        <!-- <button>Enviar consulta</button>
+        <button>Limpiar formulario</button> -->
     </form>
 
 </body>
