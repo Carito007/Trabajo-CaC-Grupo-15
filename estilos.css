@@ -280,17 +280,27 @@ header button {
 /* estilos del formulario */
 
 #formulario button {
-    display: inline-block;
-    justify-items: center;
-    align-items: center;
+    display: flex;
     color: white;
 
 }
 
-#campos {
-    display: inline-block;
-    justify-items: center;
+
+
+#formulario {
+    
+    color: white;
+    box-sizing:content-box;
+
+    margin: auto;
+    justify-items:flex-start;
     align-items: center;
+    justify-content: center;
+    
 }
 
+h2 {
+    display: block;
+    color: white;
+}
 

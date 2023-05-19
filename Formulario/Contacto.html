@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
     <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="/Trabajo-CaC-Grupo-15/validaciones.js"> </script>
+    <script src="validaciones.js"> </script>
 
     <title>Formulario Contacto</title>
 </head>
@@ -33,27 +33,34 @@
             <i class="fa fa-search" style="font-size: 18px;"></i>
         </button>
         
-
     </header>
-    
-    <form id="formulario" action="XforceGym@gmail.com.ar" method="post" enctype="text/plain">
-        Datos Importantes
+
+    <h2>Datos Importantes:</h2>
+    <form id="formulario" action="" method="post" onsubmit="enviarform(event)">
+        
         <br>  
         <fieldset id="campos" legend="Datos Importantes" name="DatosImportantes">
-                Nombre: <input id="nombre" type="text" name="Nombres" size="25" maxlength="28" placeholder="Ingrese el Nombre" required>
+                Nombre: <input id="nombre" type="text" name="Nombres" size="50" maxlength="28" placeholder="Ingrese el Nombre" required>
                 <br>
-                Apellido: <input type="text" name="Apellidos" id="2" size="50" maxlength="50" placeholder="Ingrese el Apellido" required>
                 <br>
-                Telefono: <input type="text" name="Telefono" id="3" size="50" maxlength="50" placeholder="Ingrese nro Telefono" required>
+                Apellido: <input type="text" name="apellido" id="2" size="50" maxlength="50" placeholder="Ingrese el Apellido" required>
                 <br>
-                Comente en que podemos ayudarlo: <input type=hidden name="TextoContacto" value="10">
                 <br>
-                <textarea name="Comentario" rows="10" cols="125" > </textarea>
-            </fieldset>
-        <br>
-        <br>
-        <!-- <button>Enviar consulta</button>
-        <button>Limpiar formulario</button> -->
+                Mail: <input type="email" name="mail" id="3" size="54" maxlength="50" placeholder="Ingrese su mail" required>
+                <br>
+                <br>
+                Telefono: <input type="text" name="telefono" id="4" size="50" maxlength="50" placeholder="Ingrese su Nº de teléfono" required>
+                <br>
+                <br>
+                Comente en que podemos ayudarlo: <input type=hidden name="textoContacto" value="10">
+                <br>
+                <textarea name="comentario" rows="10" cols="125" > </textarea>
+                <br>
+                <button type="submit" name="submit" id="submit">Enviar</button>
+                <button type="reset" name="reset" id="reset">Limpiar</button>
+        </fieldset>
+    
+       
     </form>
 
 </body>
