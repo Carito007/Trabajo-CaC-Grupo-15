@@ -60,8 +60,10 @@ header button {
 
 .slogan {
     color: rgb(255, 255, 255);
+    width: 90%;
     display: flex;
     justify-content: center;
+    align-content: center;
     font-size:x-large;
     animation: linea 2s infinite;
 
