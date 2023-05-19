@@ -157,9 +157,27 @@ header button {
         
     }*/
     
+.clientes {
+    border: #efefef;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    color:white;
+    width: 50%;
+    text-align: justify;
+    margin-left: 2%;
+
+    
+
+}
     
     
+.clientes p {
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+    justify-items: center;
     
+}
     
     
     
