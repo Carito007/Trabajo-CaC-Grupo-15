@@ -4,26 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Hoja de estilos personalizada -->
+    <title>Nuestro Espacio</title>
     <link rel="stylesheet" href="/estilos.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
-    <!-- Iconos -->
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+      <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    
-
+    <link rel="shortcut icon" href="/img/deadpool.ico">
 </head>
 <body>
+    
     <header>
-        <img src="/Trabajo-CaC-Grupo-15/img/deadpool1.png" alt="logo">
-        <a href="/Trabajo-CaC-Grupo-15/index.html" class="nav-izq">Home</a>
-        <a href="/Trabajo-CaC-Grupo-15/elGimnasio/elGimnasio.html" class="nav-izq">El Gimnasio</a>
-        <a href="" class="nav-izq">Rutinas</a>
-        <a href="/Trabajo-CaC-Grupo-15/Formulario/Contacto.html" class="nav-izq">Contacto</a>
+        <img src="/img/deadpool1.png" alt="logo">
+        <a href="/index.html" class="nav-izq">Home</a>
+        <a href="/elGimnasio/elGimnasio.html" class="nav-izq">El Gimnasio</a>
+        <a href="/rutinas/rutinas.html" class="nav-izq">Rutinas</a>
+        <a href="/Formulario/Contacto.html" class="nav-izq">Contacto</a>
         <p id="vacio"></p>
         <p id="vacio"></p>
         <p id="vacio"></p>
@@ -32,30 +30,42 @@
             <i class="fa fa-search" style="font-size: 18px;"></i>
         </button>
         
-
-    </header> 
-
-    <div class="map-grilla">
-        <div class="box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815792.0888837643!2d-59.4350041404763!3d-34.715614773137546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbceabb5ba27%3A0xb4b465363a9da278!2sNew%20Force%20Gym!5e0!3m2!1ses!2sit!4v1683653816236!5m2!1ses!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <h2>DONDE NOS UBICAMOS?</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus</p>
+    </header>
+   
+<!-- MAPA Y GRILLA DE ACTIVIDADES -->
+    <section class="container">
+        <div class="map-grilla">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815792.0888837643!2d-59.4350041404763!3d-34.715614773137546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbceabb5ba27%3A0xb4b465363a9da278!2sNew%20Force%20Gym!5e0!3m2!1ses!2sit!4v1683653816236!5m2!1ses!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>DONDE NOS UBICAMOS?</h2>
+            <p>En el corazon de la ciudad de BsAs, llegar a nuestro GYM es igual de facil que entrenar.</p>
         </div>
-        <div class="box">
-        <figure>
-            <a href="">
-                <img src="/Trabajo-CaC-Grupo-15/img/Grilla.png" alt="Activades">
-            </a>
-        </figure>
+        <div class="map-grilla">
+            <h2>CONOCE NUESTRAS ACTIVIDADES Y HORARIOS</h2>
+            <figure>
+                <a href="/rutinas/index.html">
+                    <img src="/img/Grilla.png" alt="Activades">
+                </a>
+            </figure>
+            </div>
         </div>
-    </div>
+    </section>
 
+    <section class="clientes">
+        <h1>Nuestros clientes opinan:</h1>
+
+    </section>
+
+    <script src="/elGimnasio/api.js"></script>
+    <script src="/elGimnasio/main.js"></script> 
+
+
+    <!-- FOOTER -->
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="/Trabajo-CaC-Grupo-15/img/deadpool-logo.png" alt="logo XForceGym">
+                        <img src="/img/deadpool-logo.png" alt="logo XForceGym">
                     </a>
                 </figure>
             </div>

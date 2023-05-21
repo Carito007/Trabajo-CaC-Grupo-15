@@ -60,8 +60,10 @@ header button {
 
 .slogan {
     color: rgb(255, 255, 255);
+    width: 90%;
     display: flex;
     justify-content: center;
+    align-content: center;
     font-size:x-large;
     animation: linea 2s infinite;
 
@@ -98,6 +100,87 @@ header button {
     height: 265px;
 }
 
+/* PROBLEMAS DE HERENCIA SIDE TO SIDE*/
+/* .map-grilla{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+    margin-left: 0%;
+    padding: 1rem 1rem;
+}
+.map-grilla img{
+    display: flex;
+    width: 800px;
+    /*margin: 45%;*/
+    
+    
+.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        
+    }
+    
+.map-grilla{
+    color:#ffff;
+    margin-bottom: 25px;
+    font-size: 20px
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+ }
+    
+.map-grilla img{
+    display: flex;
+    width: 650px;
+    object-fit: cover;
+    /*margin: 45%;*/
+}
+.map-grilla h2{
+    font-size: 24px;
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+    
+    /*@media screen and (max-width: 800px) {
+        .pie-pagina .grupo-1{
+            width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding:35px 0px;
+        }
+        
+    }*/
+    
+.clientes {
+    border: #efefef;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    color:white;
+    width: 50%;
+    text-align: justify;
+    margin-left: 2%;
+
+    
+
+}
+    
+    
+.clientes p {
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+    justify-items: center;
+    
+}
+    
+    
+    
 .pie-pagina {
     width: 100%;
     background-color:#0d2033 ;
@@ -152,34 +235,6 @@ header button {
     text-align: center;
     color: #ffff;
 }
-/* PROBLEMAS DE HERENCIA SIDE TO SIDE*/
-.map-grilla{
-    display: grid;
-    justify-items: center;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: #ffff;
-    margin-left: 0%;
-    padding: 1rem 1rem;
-}
-.map-grilla img{
-    display: flex;
-    width: 800px;
-    /*margin: 45%;*/
-}
-
-/*@media screen and (max-width: 800px) {
-    .pie-pagina .grupo-1{
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding:35px 0px;
-    }
-    
-}*/
-
-
-
 
 @media screen and (max-width: 920px) {
     header {
@@ -199,24 +254,24 @@ header button {
         align-content: center;
         margin-left: 2%;
     }
-
+    
     header img {
         margin-left: 2%;
         width: 20%;
         background-color: #0a141d;
-    
+        
     }
-
+    
     header #vacio {
         display: none;
     }
-
+    
     header button {
         display: inline-block;
         /* margin-left: 55%;
         margin-top: -6%; */
     }
-
+    
     .carrousel {
         display: flex;
         height: auto;
@@ -238,8 +293,34 @@ header button {
         grid-gap: 30px;
         padding:35px 0px;*/
     }
+    
+}    
+
+
+/* estilos del formulario */
+
+#formulario button {
+    display: flex;
+    color: white;
 
 }
 
 
+
+#formulario {
+    
+    color: white;
+    box-sizing:content-box;
+
+    margin: auto;
+    justify-items:flex-start;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2 {
+    display: block;
+    color: white;
+}
 
