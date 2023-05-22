@@ -13,6 +13,7 @@ function enviarform(event){
       formulario.elements['apellido'].value = "";
       formulario.elements['telefono'].value = "";
       formulario.elements['comentario'].value = "";
+      formulario.elements['mail'].value = "";
 
     }
    
