@@ -210,10 +210,6 @@ header button {
       margin-top: -6%; */
   }
   
-  .carrousel {
-      display: flex;
-      height: auto;
-  }
   
   .slogan {
       justify-items: center;
