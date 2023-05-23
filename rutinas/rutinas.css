@@ -210,11 +210,6 @@ header button {
       margin-top: -6%; */
   }
   
-  
-  .slogan {
-      justify-items: center;
-      
-  }
   .pie-pagina .grupo-1{
       display: grid;
       grid-template-columns: repeat(1, 1fr);
